@@ -15,6 +15,7 @@ mod app;
 fn main() {
     // OUT_DIR is set by Cargo and it's where any additional build artifacts
     // are written.
+    // test lol
     let outdir = match env::var_os("OUT_DIR") {
         Some(outdir) => outdir,
         None => {
